@@ -3,7 +3,7 @@ import '../styles/App.css';
 import Heading from "./Heading.js"
 import SubHeading from "./SubHeading.js"
 import InputQuery from "./InputQuery.js"
-import Submit from "./Submit.js"
+import SubmitButton from "./SubmitButton.js"
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
       <Heading />
       <SubHeading />
       <InputQuery />
-      <Submit />
+      <SubmitButton />
     </div>
   )
 }
